@@ -1,0 +1,22 @@
+name: geo_gcn_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - rasterio
+  - geopandas
+  - numpy
+  - pandas
+  - matplotlib
+  - shapely
+  - pyproj
+  - networkx
+  - pip
+  - pip:
+      - torch
+      - torch-geometric
+      - geemap
+      - earthengine-api
+      - rasterstats
+      - osmnx
